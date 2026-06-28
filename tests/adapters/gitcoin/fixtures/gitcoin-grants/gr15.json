@@ -1,0 +1,32 @@
+{
+  "round": 15,
+  "openedAt": "2022-09-07T00:00:00Z",
+  "closedAt": "2022-09-22T00:00:00Z",
+  "sourceUrl": "https://gitcoin.co/blog/gitcoin-grants-round-15-recap/",
+  "totalPoolUsdCents": 150000000,
+  "projects": [
+    {
+      "upstreamId": "ethers-js-gr15",
+      "projectName": "ethers.js",
+      "amountUsd": "42500.50",
+      "website": "https://ethers.org",
+      "githubOrg": "ethers-io",
+      "twitter": "ethersproject",
+      "projectUrl": "https://gitcoin.co/grants/ethers-js"
+    },
+    {
+      "upstreamId": "wagmi-gr15",
+      "projectName": "wagmi",
+      "amountUsd": "$18,300",
+      "githubOrg": "wevm",
+      "website": "https://wagmi.sh",
+      "projectUrl": "https://gitcoin.co/grants/wagmi"
+    },
+    {
+      "upstreamId": "blank-amount-row",
+      "projectName": "Anon Builder Collective",
+      "amountUsd": "",
+      "twitter": "anonbuilders"
+    }
+  ]
+}

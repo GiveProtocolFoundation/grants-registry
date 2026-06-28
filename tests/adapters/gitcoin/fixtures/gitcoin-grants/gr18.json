@@ -1,0 +1,23 @@
+{
+  "round": 18,
+  "openedAt": "2023-08-15T00:00:00Z",
+  "closedAt": "2023-08-29T00:00:00Z",
+  "sourceUrl": "https://grants.gitcoin.co/gr18",
+  "projects": [
+    {
+      "upstreamId": "wagmi-gr18",
+      "projectName": "wagmi",
+      "amountUsd": "25000",
+      "githubOrg": "wevm",
+      "website": "https://wagmi.sh",
+      "projectUrl": "https://grants.gitcoin.co/gr18/wagmi"
+    },
+    {
+      "upstreamId": "ethers-js-gr18",
+      "projectName": "ethers.js",
+      "amountUsd": "31000.1",
+      "githubOrg": "ethers-io",
+      "website": "https://ethers.org"
+    }
+  ]
+}

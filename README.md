@@ -51,6 +51,16 @@ npm run build          # Production build
 
 See [docs/SOURCES.md](./docs/SOURCES.md) for per-program provenance and license details.
 
+### Coverage status
+
+| Program | Coverage | Notes |
+|---|---|---|
+| Optimism RPGF | _scoped (in progress)_ | Rounds 1–4 (see GIV-48). |
+| Gitcoin Grants | `complete` for snapshotted rounds, `best-effort` if any rows have undisclosed amounts | GR15+. Adapter at `app/adapters/gitcoin/`. Snapshots live under `data/sources/gitcoin-grants/`. |
+| **EF ESP** | **best-effort (partial)** | Curated from public ESP blog posts. **Amounts are usually undisclosed** and ESP has no formal rounds; we synthesize pseudo-rounds. See [data/ef-esp/README.md](./data/ef-esp/README.md). |
+
+> ⚠️ The EF ESP slice is intentionally partial. Treat undisclosed amounts as **unknown**, not zero. Every undisclosed grant carries `amount_disclosed: false` in its `source_record` payload.
+
 ## Contributing
 
 Issues and PRs welcome. CLA: by submitting a PR you agree to license your contribution under Apache-2.0 (code) or CC BY 4.0 (data).

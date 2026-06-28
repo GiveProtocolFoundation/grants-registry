@@ -1,0 +1,12 @@
+node_modules/
+build/
+.cache/
+.env
+.env.*
+!.env.example
+data/*.sqlite
+data/*.sqlite-wal
+data/*.sqlite-shm
+data/snapshots/
+app/db/migrations/*.sql
+*.tmp.*
